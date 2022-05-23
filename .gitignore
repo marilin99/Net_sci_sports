@@ -1,5 +1,5 @@
 .*
 !/.gitignore
 Test/**
-**/SentimentGraphs/**
+**/Network analysis/Data**
 **/graph_csv/**

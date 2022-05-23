@@ -1,8 +1,6 @@
 import pandas as pd
 import numpy as np
-#from itertools import combinations
 import networkx as nx
-#from networkx.algorithms import community
 
 
 def graph_info(G, name='Full'):
@@ -26,3 +24,7 @@ def net_prop_dict(G, name):
     prop_dict['No_weakly_connected_components'] = nx.algorithms.components.number_weakly_connected_components(
         G)
     return prop_dict
+
+
+def to_k_core(G, k=10):
+    return nx.k_core(G, k)
