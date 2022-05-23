@@ -1,5 +1,5 @@
 .*
 !/.gitignore
 Test/**
-**/Network analysis/Data**
+**/Network analysis/Data/**
 **/graph_csv/**
